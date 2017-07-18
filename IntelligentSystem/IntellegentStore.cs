@@ -33,7 +33,7 @@ namespace IntelligentSystem
 
         private bool CheckForRelevanted(Product product, WorkedCustomer customer)
         {
-            return ProffesionCategory.ContainsKey(customer.Prof) && ProffesionCategory[customer.Prof].Equals(product.Caterogy) && product.Cost < customer.Money && product.Count > 0;
+            return ProffesionCategory.ContainsKey(customer.Prof) && ProffesionCategory[customer.Prof].Equals(product.Category) && product.Cost < customer.Money && product.Count > 0;
         }
 
     }

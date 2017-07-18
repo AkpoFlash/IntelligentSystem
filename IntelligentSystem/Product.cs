@@ -12,7 +12,7 @@ namespace IntelligentSystem
         public string Name { get; set; }
         public int Count { get; set; }
         public decimal Cost { get; set; }
-        public Enumerable.Category Caterogy { get; set; }
+        public Enumerable.Category Category { get; set; }
 
 
         public Product(int id, int count, string name, decimal cost, Enumerable.Category category)
@@ -21,12 +21,12 @@ namespace IntelligentSystem
             this.Name = name;
             this.Count = count;
             this.Cost = cost;
-            this.Caterogy = category;
+            this.Category = category;
         }
 
         public override string ToString()
         {
-            return String.Format("id: {0}; Name: {1}; Cost: {2}; Category: {3}", this.Id, this.Name, this.Cost, this.Caterogy.ToString());
+            return String.Format("id: {0}; Name: {1}; Cost: {2}; Category: {3}", this.Id, this.Name, this.Cost, this.Category.ToString());
         }
 
 
