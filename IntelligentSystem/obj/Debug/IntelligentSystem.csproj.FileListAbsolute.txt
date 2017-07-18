@@ -1,0 +1,6 @@
+c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\IntelligentSystem\bin\Debug\IntelligentSystem.exe.config
+c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\IntelligentSystem\bin\Debug\IntelligentSystem.exe
+c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\IntelligentSystem\bin\Debug\IntelligentSystem.pdb
+c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\IntelligentSystem\obj\Debug\IntelligentSystem.csprojResolveAssemblyReference.cache
+c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\IntelligentSystem\obj\Debug\IntelligentSystem.exe
+c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\IntelligentSystem\obj\Debug\IntelligentSystem.pdb
