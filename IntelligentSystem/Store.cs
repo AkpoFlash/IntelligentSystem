@@ -8,7 +8,6 @@ namespace IntelligentSystem
 {
     class Store
     {
-        public Dictionary<Enumerable.Proffesion, Enumerable.Category> ProffesionCategory { get; set; } = new Dictionary<Enumerable.Proffesion, Enumerable.Category>();
 
         public List<Product> Products { get; set; }
         public List<WorkedCustomer> Customers { get; set; }
