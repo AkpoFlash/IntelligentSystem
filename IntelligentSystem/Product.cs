@@ -9,7 +9,7 @@ namespace IntelligentSystem
 {
     class Product
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public int Count { get; set; }
         public decimal Cost { get; set; }
@@ -17,9 +17,9 @@ namespace IntelligentSystem
         public decimal DiscountPercent { get; set; }
 
 
-        public Product(int id, int count, string name, decimal cost, Category category, decimal discountPercent = 0)
+        public Product(int count, string name, decimal cost, Category category, decimal discountPercent = 0)
         {
-            this.Id = id;
+            this.Id = Guid.NewGuid();
             this.Name = name;
             this.Count = count;
             this.Cost = cost;
