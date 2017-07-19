@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IntelligentSystem.Core;
 
 namespace IntelligentSystem
 {
@@ -20,7 +21,7 @@ namespace IntelligentSystem
             this.Customers = customers;
         }
 
-        public void SetDiscountForCategory(decimal discountPercent, Enumerable.Category category)
+        public void SetDiscountForCategory(decimal discountPercent, Category category)
         {
             foreach (var product in this.Products)
             {
@@ -31,7 +32,7 @@ namespace IntelligentSystem
             }
         }
 
-        public void SetDiscountForCategory(decimal discountPercent, Enumerable.Category[] categories)
+        public void SetDiscountForCategory(decimal discountPercent, Category[] categories)
         {
             foreach (var product in this.Products)
             {

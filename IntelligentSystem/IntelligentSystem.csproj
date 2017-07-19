@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="IntelligentStore.cs" />
     <Compile Include="Customer.cs" />
-    <Compile Include="Enumerable.cs" />
+    <Compile Include="Core.cs" />
     <Compile Include="IntelligentSystem.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IntelligentSystem.Core;
 
 namespace IntelligentSystem
 {
     class IntelligentStore : Store
     {
-        public Dictionary<Enumerable.Proffesion, Enumerable.Category> ProffesionCategory { get; set; } = new Dictionary<Enumerable.Proffesion, Enumerable.Category>();
+        public Dictionary<Proffesion, Category> ProffesionCategory { get; set; } = new Dictionary<Proffesion, Category>();
         public Dictionary<string, string> RelevantProduct { get; set; } = new Dictionary<string, string>();
 
         public IntelligentStore() { }
