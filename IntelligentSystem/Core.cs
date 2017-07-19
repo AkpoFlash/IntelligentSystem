@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IntelligentSystem
+namespace IntelligentSystem.Core
 {
-    partial class Enumerable
-    {
         public enum Proffesion
         {
             Housewife,
@@ -24,8 +22,4 @@ namespace IntelligentSystem
             Cookery
         }
 
-
-
-
-    }
 }

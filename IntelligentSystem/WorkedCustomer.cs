@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IntelligentSystem.Core;
 
 namespace IntelligentSystem
 {
     partial class WorkedCustomer : Customer
     {
-        public Enumerable.Proffesion Prof { get; set; }
+        public Proffesion Prof { get; set; }
         public decimal Money { get; set; }
 
-        public WorkedCustomer(int id, string name, decimal money, Enumerable.Proffesion prof) : base(id, name)
+        public WorkedCustomer(int id, string name, decimal money, Proffesion prof) : base(id, name)
         {
             this.Prof = prof;
             this.Money = money;

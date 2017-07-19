@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IntelligentSystem.Core;
 
 namespace IntelligentSystem
 {
@@ -12,11 +13,11 @@ namespace IntelligentSystem
         public string Name { get; set; }
         public int Count { get; set; }
         public decimal Cost { get; set; }
-        public Enumerable.Category Category { get; set; }
+        public Category Category { get; set; }
         public decimal DiscountPercent { get; set; }
 
 
-        public Product(int id, int count, string name, decimal cost, Enumerable.Category category, decimal discountPercent = 0)
+        public Product(int id, int count, string name, decimal cost, Category category, decimal discountPercent = 0)
         {
             this.Id = id;
             this.Name = name;
