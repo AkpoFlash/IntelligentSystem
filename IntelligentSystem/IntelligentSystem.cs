@@ -13,10 +13,10 @@ namespace IntelligentSystem
 
         static public void InitializeProduct()
         {
-            store.Products.Add(new Product(0, 0, "Ball", 10, Category.Sport));
-            store.Products.Add(new Product(1, 88, "Bananas", 20, Category.Cookery));
-            store.Products.Add(new Product(2, 19, "Set of bricks", 100, Category.Building));
-            store.Products.Add(new Product(3, 5, "Oven", 1000, Category.House, 90));
+            store.Products.Add(new Product(0, "Ball", 10, Category.Sport));
+            store.Products.Add(new Product(88, "Bananas", 20, Category.Cookery));
+            store.Products.Add(new Product(19, "Set of bricks", 100, Category.Building));
+            store.Products.Add(new Product(5, "Oven", 1000, Category.House, 90));
         }
 
         static public void InitializeWorkedPeople()
