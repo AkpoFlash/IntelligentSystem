@@ -4,3 +4,9 @@ c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\Intel
 c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\IntelligentSystem\obj\Debug\IntelligentSystem.csprojResolveAssemblyReference.cache
 c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\IntelligentSystem\obj\Debug\IntelligentSystem.exe
 c:\users\student05\documents\visual studio 2015\Projects\IntelligentSystem\IntelligentSystem\obj\Debug\IntelligentSystem.pdb
+C:\Users\rey\Documents\Visual Studio 2017\Projects\IntelligentSystem\IntelligentSystem\bin\Debug\IntelligentSystem.exe.config
+C:\Users\rey\Documents\Visual Studio 2017\Projects\IntelligentSystem\IntelligentSystem\bin\Debug\IntelligentSystem.exe
+C:\Users\rey\Documents\Visual Studio 2017\Projects\IntelligentSystem\IntelligentSystem\bin\Debug\IntelligentSystem.pdb
+C:\Users\rey\Documents\Visual Studio 2017\Projects\IntelligentSystem\IntelligentSystem\obj\Debug\IntelligentSystem.csprojResolveAssemblyReference.cache
+C:\Users\rey\Documents\Visual Studio 2017\Projects\IntelligentSystem\IntelligentSystem\obj\Debug\IntelligentSystem.exe
+C:\Users\rey\Documents\Visual Studio 2017\Projects\IntelligentSystem\IntelligentSystem\obj\Debug\IntelligentSystem.pdb

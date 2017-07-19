@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace IntelligentSystem
 {
-    class IntellegentStore : Store
+    class IntelligentStore : Store
     {
         public Dictionary<Enumerable.Proffesion, Enumerable.Category> ProffesionCategory { get; set; } = new Dictionary<Enumerable.Proffesion, Enumerable.Category>();
         public Dictionary<string, string> RelevantProduct { get; set; } = new Dictionary<string, string>();
 
-        public IntellegentStore() { }
+        public IntelligentStore() { }
 
-        public IntellegentStore(List<Product> products, List<WorkedCustomer> customers) : base(products, customers) { }
+        public IntelligentStore(List<Product> products, List<WorkedCustomer> customers) : base(products, customers) { }
 
-        public Dictionary<string, string> GetRelevantProduct(List<Product> products, List<WorkedCustomer> customers)
+        public Dictionary<string, string> GetRelevantProduct()
         {
-            foreach (var product in products)
+            foreach (var product in this.Products)
             {
-                foreach (var customer in customers)
+                foreach (var customer in this.Customers)
                 {
                     if (CheckForRelevanted(product, customer))
                     {
@@ -33,7 +33,7 @@ namespace IntelligentSystem
 
         private bool CheckForRelevanted(Product product, WorkedCustomer customer)
         {
-            return ProffesionCategory.ContainsKey(customer.Prof) && ProffesionCategory[customer.Prof].Equals(product.Category) && product.Cost < customer.Money && product.Count > 0;
+            return ProffesionCategory.ContainsKey(customer.Prof) && ProffesionCategory[customer.Prof].Equals(product.Category) && product.GetFullCost() <= customer.Money && product.Count > 0;
         }
 
     }
